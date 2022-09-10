@@ -1,0 +1,23 @@
+main,div {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh,
+    justify-content:center
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  flex-wrap:wrap;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  flex-wrap:wrap;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
